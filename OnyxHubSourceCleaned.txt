@@ -46,7 +46,7 @@ do
 		local color7 = Color3.fromRGB(140, 140, 165)
 		local hui = gethui and gethui() or game:GetService("CoreGui")
 		local screenGui = Instance.new("ScreenGui")
-		screenGui.Name = "OnyxExecutorWarning"
+		screenGui.Name = "TorchVeilExecutorWarning"
 		screenGui.IgnoreGuiInset = true
 		screenGui.ResetOnSpawn = false
 		screenGui.DisplayOrder = 2000000
@@ -188,7 +188,7 @@ do
 
 	local TweenService_ = game:GetService("TweenService")
 	local screenGui = Instance.new("ScreenGui")
-	screenGui.Name = "OnyxLoading"
+	screenGui.Name = "TorchVeilLoading"
 	screenGui.IgnoreGuiInset = true
 	screenGui.ResetOnSpawn = false
 	screenGui.DisplayOrder = 99998
@@ -248,7 +248,7 @@ do
 	textLabel.TextXAlignment = Enum.TextXAlignment.Left
 	textLabel.TextColor3 = Color3.fromRGB(242, 242, 248)
 	textLabel.TextTransparency = 1
-	textLabel.Text = "Loading Onyx"
+	textLabel.Text = "Loading TorchVeil"
 	textLabel.Parent = frame2
 	local textLabel2 = Instance.new("TextLabel")
 	textLabel2.Position = UDim2.fromOffset(81, 43)
@@ -392,7 +392,7 @@ task.spawn(function()
 		task.wait(0.25)
 	end
 
-	print("Loaded. discord.gg/onyxscripts")
+	print("Loaded. discord.gg/jKsNYcbwaY")
 end)
 
 if _G.OnyxV2 then
